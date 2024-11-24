@@ -1,0 +1,83 @@
+ [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 10.99,
+      "image": "https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A novel set in the 1920s about the American dream."
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": 9.99,
+      "image": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A story of racial injustice and moral growth in the Deep South."
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "price": 12.99,
+      "image": "https://images.pexels.com/photos/904616/pexels-photo-904616.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A dystopian novel about totalitarianism and surveillance."
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": 8.99,
+      "image": "https://images.pexels.com/photos/768125/pexels-photo-768125.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A romantic novel about manners and matrimonial machinations."
+    },
+    {
+      "id": 5,
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "price": 11.99,
+      "image": "https://images.pexels.com/photos/762686/pexels-photo-762686.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A thrilling tale of obsession and revenge on the high seas."
+    },
+    {
+      "id": 6,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "price": 15.99,
+      "image": "https://images.pexels.com/photos/2228557/pexels-photo-2228557.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A sweeping epic of love and war during the Napoleonic era."
+    },
+    {
+      "id": 7,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "price": 9.49,
+      "image": "https://images.pexels.com/photos/415078/pexels-photo-415078.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A teenager's exploration of identity and rebellion in the 1950s."
+    },
+    {
+      "id": 8,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 10.49,
+      "image": "https://images.pexels.com/photos/824197/pexels-photo-824197.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A fantasy adventure in Middle-earth before the events of The Lord of the Rings."
+    },
+    {
+      "id": 9,
+      "title": "Anna Karenina",
+      "author": "Leo Tolstoy",
+      "price": 13.99,
+      "image": "https://images.pexels.com/photos/1329571/pexels-photo-1329571.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A tragic tale of love, betrayal, and Russian society."
+    },
+    {
+      "id": 10,
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "price": 14.99,
+      "image": "https://images.pexels.com/photos/256450/pexels-photo-256450.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "description": "A psychological drama of guilt and redemption in 19th-century Russia."
+    }
+  ]
+  

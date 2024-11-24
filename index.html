@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Shop</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .cart-toast {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 1050;
+      display: none;
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    .view-cart-btn {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      z-index: 1050;
+      font-size: 16px;
+      padding: 10px 15px;
+      border-radius: 50px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-custom {
+      background-color: #f8f9fa;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <span class="navbar-brand mb-0 h1">Book Shop &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <span class="text-center text-success">SAQLAIN ABBAS</span> 
+      </span>
+      <!-- <p class="navbar-brand mb-0 h1">Saqlain Abbas</p> -->
+    </div>
+  </nav>
+
+  <!-- View Cart Button -->
+  <button class="btn btn-success view-cart-btn" id="cartModalBtn" data-toggle="modal" data-target="#cartModal">
+    🛒 View Cart
+  </button>
+
+  <!-- Main Content -->
+  <div class="container mt-5">
+    <h1 class="text-center mb-3">Welcome to the Book Shop</h1>
+    <div class="row mt-5" id="book-list">
+      <!-- Book cards will be dynamically loaded here -->
+    </div>
+  </div>
+
+  <!-- Add to Cart Modal -->
+  <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="cartModalLabel">Your Cart</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="cartItems">
+              <!-- Cart items will be dynamically loaded here -->
+            </tbody>
+          </table>
+          <div class="text-right">
+            <strong>Total Price: $<span id="totalPrice">0.00</span></strong>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-success">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cart Toast -->
+  <div class="cart-toast">Book added to cart!</div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
